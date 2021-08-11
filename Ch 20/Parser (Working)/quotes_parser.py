@@ -6,7 +6,10 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, "lxml")
 quotes = soup.find_all("span", class_="text")
 
-for quote in quotes:
+'''for quote in quotes:
 	print(quote.text)
+'''
 
-# Doesn't work...
+for quote in quotes:
+	with open('resault.txt', 'w') as f:
+		f.write(quote.text)

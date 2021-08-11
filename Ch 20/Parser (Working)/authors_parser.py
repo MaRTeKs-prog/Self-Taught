@@ -8,3 +8,5 @@ authors = soup.find_all('span', class_='author')
 
 for author in authors:
 	print(authors.text)
+
+# Doesn't work...
