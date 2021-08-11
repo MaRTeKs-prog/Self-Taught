@@ -3,6 +3,7 @@ import random
 
 # Ex. 299
 
+
 class Queue:
 	def __init__(self):
 		self.items = []
@@ -41,3 +42,5 @@ class Queue:
 queue = Queue()
 sold = queue.simulate_line(5, 1)
 print(sold)
+
+#Эта хуйня вообще не работает...
