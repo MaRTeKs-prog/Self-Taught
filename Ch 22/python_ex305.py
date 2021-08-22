@@ -13,3 +13,5 @@ def bottles_of_beer(bob):
 	bottles_of_beer(bob)
 
 bottles_of_beer(99)
+
+# Почему-то при выводе текста, он выводится неровно
